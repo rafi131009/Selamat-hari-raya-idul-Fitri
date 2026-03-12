@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Ucapan Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="card">
+        <div class="ornament">✦</div>
+
+        <header>
+            <p class="subtitle">SELAMAT</p>
+            <h1 class="title">IDUL FITRI</h1>
+            <p class="year">1447 H</p>
+            
+            <h2 class="greeting">MOHON MAAF<br>LAHIR DAN BATIN</h2>
+            <div class="divider"></div>
+            <p class="message">
+                Semoga hati kembali suci dan penuh berkah.<br>
+                Mari eratkan silaturahmi dengan sentuhan digital.
+            </p>
+        </header>
+
+        <div class="qris-container">
+            <div class="qris-frame">
+                <img src="qris-kamu.png" alt="QRIS Pribadi" class="qris-image">
+                
+                <div class="qris-label">
+                    <p class="scan-text">SCAN QR UNTUK</p>
+                    <p class="ampau-text">AMPAU DIGITAL</p>
+                    <span class="thanks-badge">TERIMA KASIH</span>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p class="from-label">DARI:</p>
+            <p class="family-name">KELUARGA BUDI & FITRI ❤️</p>
+        </footer>
+    </div>
+
+</body>
+</html>
